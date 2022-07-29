@@ -8,7 +8,7 @@ function Resume() {
         <hr />
 
         <a
-          className="button is-primary"
+          className="button is-link"
           href={process.env.PUBLIC_URL + "insert resume link here"}
           target="_blank" rel="noreferrer"
         >
@@ -23,7 +23,7 @@ function Resume() {
         <hr />
         <ul>
             <li>HTML, CSS, Javascript</li>
-            <li>SQL, NoSQL, MongoDB</li>
+            <li>MySQL, NoSQL, MongoDB</li>
             <li>React, Node.js, Express</li>
             <li>Git</li>
             <li>Github Repo Management</li>

@@ -17,8 +17,8 @@ function Contact() {
     if (state.succeeded) {
         return (
             <div>
-                <p>Thanks for reaching out!</p>
-                <button className="button is-medium is-primary is-half m-6" onClick={refreshPage}>Submit New Form</button>
+                <p>Your message has been sent!</p>
+                <button className="button is-medium is-link is-half m-6" onClick={refreshPage}>Submit New Form</button>
             </div>
         );
     }
@@ -51,15 +51,15 @@ function Contact() {
             <hr />
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="field">
-                    <label className="label" htmlFor="name">Name</label>
+                    <label className="label" htmlFor="name">Name:</label>
                     <input className="input" type="text" name="name" defaultValue={name} onBlur={verifyChange} />
                 </div>
                 <div className="field">
-                    <label className="label" htmlFor="email">Email Address</label>
+                    <label className="label" htmlFor="email">Email Address:</label>
                     <input className="input" type="email" name="email" defaultValue={email} onBlur={verifyChange} />
                 </div>
                 <div className="field">
-                    <label className="label" htmlFor="message">Message</label>
+                    <label className="label" htmlFor="message">Message:</label>
                     <textarea className="textarea" name="message" rows="5" defaultValue={message} onBlur={verifyChange} />
                 </div>
                 {errorMessage && (
@@ -67,7 +67,7 @@ function Contact() {
                         <p className="is-danger">{errorMessage}</p>
                     </div>
                 )}
-                <button className="button is-medium is-primary is-fullwidth" data-testid="button" type="submit">Submit</button>
+                <button className="button is-medium is-link is-fullwidth" data-testid="button" type="submit">Submit</button>
             </form>
         </div>
     );
