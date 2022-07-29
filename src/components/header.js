@@ -24,6 +24,8 @@ function Header() {
     }
   };
 
+  console.log("these components are a pain.");
+
   return (
     <div>
       <nav className="navbar">
