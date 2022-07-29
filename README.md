@@ -2,7 +2,7 @@
 
 ## Description
 Showcase of my projects, resume, with an about me section that breifly describes who i am what im intersted in and what i have to offer. 
-[ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/104460100/181841995-1b855229-a570-4047-ab79-ba67ca41fa22.gif)
+
 ## Table of Contents
       
 - [Resources](#Resources)
