@@ -1,6 +1,6 @@
 import React from "react";
 
-function project(props) {
+function Project(props) {
   return (
     <div>
       <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
@@ -57,4 +57,4 @@ function project(props) {
   );
 }
 
-export default project;
+export default Project;
