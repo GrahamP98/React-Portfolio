@@ -9,8 +9,8 @@ function Resume() {
 
         <a
           className="button is-link"
-          href={process.env.PUBLIC_URL + "insert resume link here"}
-          target="_blank" rel="noreferrer"
+          href={process.env.PUBLIC_URL + "/docs/Resume.pdf"}
+          target="_blank" rel="noreferrer" download="Graham's Resume"
         >
           <span className="icon">
             <i className="fas fa-download"></i>
