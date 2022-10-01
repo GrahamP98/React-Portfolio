@@ -23,10 +23,9 @@ function Resume() {
         <hr />
         <ul>
             <li>HTML, CSS, Javascript</li>
-            <li>MySQL, NoSQL, MongoDB</li>
-            <li>React, Node.js, Express</li>
-            <li>Git</li>
-            <li>Github Repo Management</li>
+            <li>MySQL, NoSQL, MERN stack, REST API's</li>
+            <li>React, Node.js, Express.js, Progressive Web Applications (PWAs)</li>
+            <li>Github Repo Management, Database Development, Git</li>
         </ul>
       </div>
     </div>

@@ -22,4 +22,4 @@ Showcase of my projects, resume, with an about me section that breifly describes
 Easiest method is to use the live link [here](https://nameless-mountain-39081.herokuapp.com/) to go to my react portfolio page on heroku. If your more on the tech savvy side you could clone my repo [here](https://github.com/GrahamP98/React-Portfolio). then in your terminal type npm i or npm install, after type npm run pre-deployment, then npm run deployment. finally npm run start. go to localhost:3000 in your browser and you should have the app pulled up!
 
 # Credits
-Graham Purnell!
+Graham Purnell
