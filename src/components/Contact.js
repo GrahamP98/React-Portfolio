@@ -3,7 +3,7 @@ import { useForm } from '@formspree/react';
 import { checkEmail } from '../utils/helpers';
 
 function Contact() {
-    const [state, handleSubmit] = useForm("xknyyydk");
+    const [state, handleSubmit] = useForm('xdojzabb');
 
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
