@@ -66,12 +66,14 @@ const projects = [
 
 function Portfolio() {
   return (
-    <div>
-      <p className="content is-medium">Portfolio</p>
-      <hr />
+    <body>
+      <div>
+        <p className="content is-medium">Portfolio</p>
+        <hr />
 
-      <Project projects={projects} />
-    </div>
+        <Project projects={projects} />
+      </div>
+    </body>
   );
 }
 

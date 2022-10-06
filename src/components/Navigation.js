@@ -4,7 +4,7 @@ function Navigation(props) {
   const tabs = ["About", "Portfolio", "Contact", "Resume"];
   return (
     <div className="tabs is-centered">
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs navHeader">
         {tabs.map((tab) => (
           <li
             className={

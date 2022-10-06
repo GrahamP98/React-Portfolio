@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="columns">
+    <body className="columns">
       <div className="column">
         <p className="content is-medium">Resume</p>
         <hr />
@@ -28,7 +28,7 @@ function Resume() {
             <li>Github Repo Management, Database Development, Git</li>
         </ul>
       </div>
-    </div>
+    </body>
   );
 }
 

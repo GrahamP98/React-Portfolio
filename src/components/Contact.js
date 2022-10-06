@@ -46,7 +46,7 @@ function Contact() {
     };
 
     return (
-        <div>
+        <body>
             <p className="content is-medium">Contact Me</p>
             <hr />
             <form id="contact-form" onSubmit={handleSubmit}>
@@ -69,7 +69,7 @@ function Contact() {
                 )}
                 <button className="button is-medium is-link is-fullwidth" data-testid="button" type="submit">Submit</button>
             </form>
-        </div>
+        </body>
     );
 }
 
