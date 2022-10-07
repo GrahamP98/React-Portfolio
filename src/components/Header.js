@@ -4,6 +4,9 @@ import About from "./About";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+// import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Header() {
   const [currentPage, handlePageChange] = useState("About");
