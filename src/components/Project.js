@@ -29,7 +29,7 @@ function Project(props) {
                   <br />
                   <br />
                   <div className="card">
-                    <footer className="card-footer">
+                    <footer className="card-footer projectBtn">
                       <a
                         href={project.repo}
                         className="card-footer-item"
