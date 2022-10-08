@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <body>
+    <body className='mt-5 mb-2'>
       <div>
         <p className="content is-medium">About</p>
         <hr />

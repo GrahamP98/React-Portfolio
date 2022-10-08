@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
-  z-index: 0;
+  font-family: 'Montserrat', 'sans-serif';
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
 
 body {
-  margin: 8px;
-  padding: 12px;
   min-height: 100vh;
+  background-color: hsl(0, 0%, 96%);
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .App {
@@ -47,6 +53,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

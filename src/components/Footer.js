@@ -35,7 +35,7 @@ function Footer() {
         </div>
         <p>
           <strong>React Portfolio</strong> - by{" "}
-          <a href="https://github.com/GrahamP98" target="_blank" rel="noreferrer">
+          <a href="https://github.com/GrahamP98" target="_blank" rel="noreferrer" className='has-text-dark'>
             Nathanael Graham Purnell
           </a>
         </p>

@@ -46,19 +46,19 @@ function Contact() {
     };
 
     return (
-        <body>
+        <body className='mt-5 mb-2'>
             <p className="content is-medium">Contact Me</p>
             <hr />
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div className="field">
+                <div className="field m-6">
                     <label className="label" htmlFor="name">Name:</label>
-                    <input className="input" type="text" name="name" defaultValue={name} onBlur={verifyChange} />
+                    <input className="input" type="text" name="name" placeholder='John Doe' defaultValue={name} onBlur={verifyChange} />
                 </div>
-                <div className="field">
+                <div className="field m-6">
                     <label className="label" htmlFor="email">Email Address:</label>
-                    <input className="input" type="email" name="email" defaultValue={email} onBlur={verifyChange} />
+                    <input className="input" type="email" name="email" placeholder='johndoe123@gmail.com' defaultValue={email} onBlur={verifyChange} />
                 </div>
-                <div className="field">
+                <div className="field m-6">
                     <label className="label" htmlFor="message">Message:</label>
                     <textarea className="textarea" name="message" rows="5" defaultValue={message} onBlur={verifyChange} />
                 </div>
@@ -67,7 +67,7 @@ function Contact() {
                         <p className="is-danger">{errorMessage}</p>
                     </div>
                 )}
-                <button className="button is-medium is-link is-fullwidth" data-testid="button" type="submit">Submit</button>
+                <button className="button is-dark is-large is-responsive" data-testid="button" type="submit">Submit</button>
             </form>
         </body>
     );

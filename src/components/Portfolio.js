@@ -66,7 +66,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <body>
+    <body className='mt-5 mb-2'>
       <div>
         <p className="content is-medium">Portfolio</p>
         <hr />

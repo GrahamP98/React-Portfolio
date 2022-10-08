@@ -18,7 +18,7 @@ function Project(props) {
                 <div className="media">
                   <div className="media-left"></div>
                   <div className="media-content">
-                    <p className="title is-4" key={project.id}>
+                    <p className="title is-4 is-underlined" key={project.id}>
                       {project.title}
                     </p>
                   </div>
@@ -29,10 +29,10 @@ function Project(props) {
                   <br />
                   <br />
                   <div className="card">
-                    <footer className="card-footer projectBtn">
+                    <footer className="card-footer has-background-dark has-text-white">
                       <a
                         href={project.repo}
-                        className="card-footer-item"
+                        className="card-footer-item has-background-dark has-text-white"
                         target="_blank" rel="noreferrer"
                       >
                         Github Repository
@@ -40,7 +40,7 @@ function Project(props) {
                       <br />
                       <a
                         href={project.live}
-                        className="card-footer-item"
+                        className="card-footer-item has-background-dark has-text-white"
                         target="_blank" rel="noreferrer"
                       >
                         Live Site
