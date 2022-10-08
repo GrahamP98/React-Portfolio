@@ -17,6 +17,11 @@ a:active {
   background-color: hsl(0, 0%, 96%);
   margin-top: 42px;
   margin-bottom: 10px;
+  z-index: 0;
+}
+
+body {
+  z-index: 1;
 }
 
 .App {
@@ -63,7 +68,7 @@ a:active {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   background-color: white;
 }
 
