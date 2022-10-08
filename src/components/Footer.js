@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       <div className="content has-text-centered">
-        <div className="mb-2">
+        <div className="m-2 mt-4">
           <a
             rel="noreferrer"
             target="_blank"

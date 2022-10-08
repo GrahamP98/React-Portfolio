@@ -46,7 +46,7 @@ function Contact() {
     };
 
     return (
-        <body className='mt-5 mb-2'>
+        <body className='layout'>
             <p className="content is-medium">Contact Me</p>
             <hr />
             <form id="contact-form" onSubmit={handleSubmit}>
@@ -67,7 +67,7 @@ function Contact() {
                         <p className="is-danger">{errorMessage}</p>
                     </div>
                 )}
-                <button className="button is-dark is-large is-responsive" data-testid="button" type="submit">Submit</button>
+                <button className="button is-dark is-large is-responsive is-underlined" data-testid="button" type="submit">Submit</button>
             </form>
         </body>
     );

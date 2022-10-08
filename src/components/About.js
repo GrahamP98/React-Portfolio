@@ -2,16 +2,16 @@ import React from "react";
 
 function About() {
   return (
-    <body className='mt-5 mb-2'>
+    <body className='layout'>
       <div>
         <p className="content is-medium">About</p>
         <hr />
-        <div className="box">
+        <div className="box ml-2 mr-2">
           <div>
             <p className="is-size-1 is-underlined">Graham Purnell</p>
           </div>
           <div className="has-text-left p-2 m-1">
-            <div className="media-left ">
+            <div className="media-left">
               <figure className="image is-128x128">
                 <img className="is-rounded" src={process.env.PUBLIC_URL + '/images/ProfilePic.png'} alt="Nathanael Graham Purnell" />
               </figure>

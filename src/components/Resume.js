@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <body className="columns mt-5 mb-2">
+    <body className="columns layout">
       <div className="column ml-2 mr-2">
         <p className="content is-medium">Resume</p>
         <hr />
@@ -29,7 +29,7 @@ function Resume() {
         <a className="button is-dark"
           href={process.env.PUBLIC_URL + "https://www.credly.com/badges/65a607b0-a922-4955-bbdd-668c268d145d/public_url"}
           target="_blank" rel="noreferrer" download="Graham's Certificate">
-          <div>View Certificate</div>
+          View Certificate
         </a>
       </div>
     </body>

@@ -6,7 +6,7 @@ function Project(props) {
       <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
         {props.projects.map((project) => (
           <div className="column is-half">
-            <div className="card">
+            <div className="card ml-2 mr-2 hvrImg">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <a href={project.live} target="_blank" rel="noreferrer">
@@ -32,7 +32,7 @@ function Project(props) {
                     <footer className="card-footer has-background-dark has-text-white">
                       <a
                         href={project.repo}
-                        className="card-footer-item has-background-dark has-text-white"
+                        className="card-footer-item has-background-dark has-text-white has-text-weight-bold"
                         target="_blank" rel="noreferrer"
                       >
                         Github Repository
@@ -40,7 +40,7 @@ function Project(props) {
                       <br />
                       <a
                         href={project.live}
-                        className="card-footer-item has-background-dark has-text-white"
+                        className="card-footer-item has-background-dark has-text-white has-text-weight-bold"
                         target="_blank" rel="noreferrer"
                       >
                         Live Site

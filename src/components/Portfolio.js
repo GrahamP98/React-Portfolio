@@ -8,6 +8,7 @@ const projects = [
     languages: "CSS, Javascript, HTML",
     packages: "bcrypt, connect-session-sequelize, dotenv, express, express-handlebars, express-session, moment, mysql2, node-schedule, sequelize",
     image: "/images/BlastOff-GIF.gif",
+    logo: "/images/blastofflogo.png",
     description: "Our website is a space launch application that allows users to see the upcoming space launches from SpaceX. The user will not be able to interact with the application unless they have an account or created an account. Once login/signup is complete, the user gains the ability to add comments about any launch. The user also has the ability to add their favorite launches on the saved pages. The user also has the ability to search by the launch name or rocket name.",
     repo: "https://github.com/JtheFox/blastoff",
     live: "https://blastoff2.herokuapp.com/",
@@ -66,7 +67,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <body className='mt-5 mb-2'>
+    <body className='layout'>
       <div>
         <p className="content is-medium">Portfolio</p>
         <hr />

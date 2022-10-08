@@ -12,10 +12,10 @@ a:active {
   color: inherit;
 }
 
-body {
+.layout {
   min-height: 100vh;
   background-color: hsl(0, 0%, 96%);
-  margin-top: 25px;
+  margin-top: 42px;
   margin-bottom: 10px;
 }
 
@@ -65,4 +65,8 @@ body {
   width: 100%;
   z-index: 1;
   background-color: white;
+}
+
+.hvrImg {
+
 }
