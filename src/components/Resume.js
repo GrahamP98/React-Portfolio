@@ -25,7 +25,12 @@ function Resume() {
           <li>React, Node.js, Express.js, Progressive Web Applications (PWAs)</li>
           <li>Github Repo Management, Database Development, Git</li>
         </ul>
-        <div><img src={process.env.PUBLIC_URL + '/images/coding-full-stack-web-development-certificate.png'} alt="UNCC Certificate Badge" /></div>
+        <div>
+          <figure>
+            <img src={process.env.PUBLIC_URL + '/images/coding-full-stack-web-development-certificate.png'} alt="UNCC Certificate Badge" />
+            <figcaption className="box">Full Stack Web Development Certificate from UNC Charlotte School of Professional Studies</figcaption>
+          </figure>
+        </div>
         <a className="button is-dark"
           href={process.env.PUBLIC_URL + "https://www.credly.com/badges/65a607b0-a922-4955-bbdd-668c268d145d/public_url"}
           target="_blank" rel="noreferrer" download="Graham's Certificate">
