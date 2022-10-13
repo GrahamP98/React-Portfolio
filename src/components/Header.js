@@ -33,7 +33,7 @@ function Header() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      <main>
+      <main className='mainClass'>
         <div>{renderPage(currentPage)}</div>
       </main>
     </div>
