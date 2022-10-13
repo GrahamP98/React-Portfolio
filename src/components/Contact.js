@@ -60,7 +60,7 @@ function Contact() {
                 </div>
                 <div className="field m-6">
                     <label className="label" htmlFor="message">Message:</label>
-                    <textarea className="textarea" name="message" rows="5" defaultValue={message} onBlur={verifyChange} />
+                    <textarea className="textarea" name="message" placeholder='Type message here...' rows="5" defaultValue={message} onBlur={verifyChange} />
                 </div>
                 {errorMessage && (
                     <div>

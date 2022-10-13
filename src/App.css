@@ -72,6 +72,72 @@ body {
   background-color: white;
 }
 
-.hvrImg {
+@media screen and (max-width: 260px) {
+  .fontAicon{
+    font-size: 1em;
+  }
+  .proPic {
+    max-width: 72px;
+    max-height: 72px;
+  }
+}
 
+@media screen and (min-width: 261px) and (max-width: 550px) {
+  .fontAicon{
+    font-size: 2em;
+  }
+  .proPic {
+    max-width: 96px;
+    max-height: 96px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 799px) {
+  .fontAicon{
+    font-size: 3em;
+  }
+  .proPic {
+    max-width: 110px;
+    max-height: 110px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+  .fontAicon{
+    font-size: 4em;
+  }
+  .proPic {
+    max-width: 128px;
+    max-height: 128px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .fontAicon{
+    font-size: 6em;
+  }
+  .proPic {
+    max-width: 128px;
+    max-height: 128px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .fontAicon{
+    font-size: 8em;
+  }
+  .proPic {
+    max-width: 156px;
+    max-height: 156px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .fontAicon{
+    font-size: 10em;
+  }
+  .proPic {
+    max-width: 200px;
+    max-height: 200px;
+  }
 }

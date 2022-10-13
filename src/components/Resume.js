@@ -28,7 +28,7 @@ function Resume() {
         <div>
           <figure>
             <img src={process.env.PUBLIC_URL + '/images/coding-full-stack-web-development-certificate.png'} alt="UNCC Certificate Badge" />
-            <figcaption className="box">Full Stack Web Development Certificate from UNC Charlotte School of Professional Studies</figcaption>
+            <figcaption className="box"><span className="is-underlined">Full Stack Web Development Certificate</span> from UNC Charlotte School of Professional Studies</figcaption>
           </figure>
         </div>
         <a className="button is-dark"
