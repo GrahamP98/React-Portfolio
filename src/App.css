@@ -72,10 +72,6 @@ body {
   background-color: white;
 }
 
-.mainClass {
-  padding-top: 50px;
-}
-
 @media screen and (max-width: 260px) {
   .fontAicon{
     font-size: 1em;
