@@ -3,7 +3,6 @@
 ## Description
 This is my react portfolio you will find an about me section describing who i am and what i have to offer. There's also a showcase of my projects with descriptions, live links and repository links. A contact form that goes to my email and a iframe displaying my resume with a list of skills and a link to my UNCC certificate.
 
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/104460100/181843023-44d4afb1-7b69-494b-aa4e-1153494ca08e.gif)
 
 ## Table of Contents
       
